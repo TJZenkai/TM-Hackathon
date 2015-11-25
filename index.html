@@ -13,7 +13,10 @@
     <div id="wrapper">
 
     <!-- Sidebar -->
-    <div id="sidebar-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">
+          <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="/">
@@ -37,12 +40,75 @@
             </li>
         </ul>
     </div>
+  </div>
     <!-- /#sidebar-wrapper -->
+
+    <!--navbar-wrapper-->
+    <div class="col-md-11">
+      <div class="detail-header">
+        <div class="eventDate">
+          <div class="day">25</div>
+          <div class="monthYear">NOV 2015</div>
+        </div>
+        <div class="eventNameGroup">
+          <div class="eventName">Hairball</div>
+          <div class="eventTime">WEDNESDAY, 12:32 pm, Newport Music Hall, Columbus, OH</div>
+        </div>
+      </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#"><img src="assets/CampaignPerformance.png"></a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="assets/TransactionDatePicker.png"></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<span class="label label-host">HOST Data as of Wednesday 11/25/2015, 8:32:00 pm UTC</span>
+							<span class="label label-default">LIVE</span>
+						</li>
+					</ul>
+				</div>
+			</nav>
+    </div>
+  </div>
+</div>
+      <!--end navbar-->
 
     <div class="event-slider">
       <h3>Please Specify Budget for all Events:</h3>
-      <p>$</p><p class="monies-val"></p><input class="monies">
+      <p class="dolla">$</p><p class="monies-val"></p><input class="monies">
       <button class="btn btn-primary">Apply</button>
+
+      <hr>
 
       <!--lot of events  -->
       <div id="DIV_1">
@@ -380,6 +446,25 @@
         } else {
             $('.event-slider').animate({"margin-left": '+=1100'});
         }
+      });
+
+      /*for budget input */
+      $('.btn-primary').click(function(){
+        if($(this).text()== "Edit") {
+          $('.monies').show();
+          $('.monies-val').hide();
+          $(this).text('Apply');
+          return;
+        }
+
+        if($(this).text()=="Apply") {
+        var budget = $('.monies').val();
+        $('.monies-val').show();
+        $('.monies-val').text(budget);
+        $('.monies').hide();
+        $('.dolla').css('margin-right','2px');
+        $(this).text('Edit');
+      }
       });
     });
     </script>
