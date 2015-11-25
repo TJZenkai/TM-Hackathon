@@ -47,6 +47,10 @@
 .detail-header .eventNameGroup .eventName {
 	font-size: 30px;
 }
+.detail-header .eventNameGroup .eventName .events_count {
+  color: #cccccc;
+  font-size: 16px;
+}
 
 /*!
 	Navbar
