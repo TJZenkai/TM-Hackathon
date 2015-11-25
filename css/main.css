@@ -271,3 +271,9 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+
+  .social-sub {
+    float: left;
+    width: 34px;
+    margin-right:32px;
+  }
