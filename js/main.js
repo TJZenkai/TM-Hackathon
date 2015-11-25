@@ -60,14 +60,14 @@ $(function () {
                         var series = this.series[0];
                         setInterval(function () {
                             var x = (new Date()).getTime(), // current time
-                                y = Math.random();
+                                y = Math.random()*5;
                             series.addPoint([x, y], true, true);
                         }, 1000);
                     }
                 }
             },
             title: {
-                text: 'Live random data'
+                text: 'Impressions/Sec'
             },
             xAxis: {
                 type: 'datetime',
@@ -75,7 +75,7 @@ $(function () {
             },
             yAxis: {
                 title: {
-                    text: 'Value'
+                    text: 'Number of Impressions'
                 },
                 plotLines: [{
                     value: 0,
@@ -107,7 +107,7 @@ $(function () {
                     for (i = -19; i <= 0; i += 1) {
                         data.push({
                             x: time + i * 1000,
-                            y: Math.random()
+                            y: Math.random()*5
                         });
                     }
                     return data;
