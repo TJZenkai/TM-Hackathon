@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="wrapper">
- 
+
     <!-- Sidebar -->
     <div class="container-fluid">
       <div class="row">
@@ -42,7 +42,7 @@
     </div>
   </div>
     <!-- /#sidebar-wrapper -->
- 
+
     <!--navbar-wrapper-->
     <div class="col-md-11">
       <div class="detail-header">
@@ -55,11 +55,11 @@
           <div class="eventTime">SATURDAY, 7:00 pm, Newport Music Hall, Columbus, OH</div>
         </div>
       </div>
- 
+
     <nav class="navbar navbar-default" role="navigation">
                                 <div class="navbar-header">
                                 </div>
- 
+
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav">
                                                 <li class="active">
@@ -102,19 +102,19 @@
   </div>
 </div>
       <!--end navbar-->
- 
+
     <div class="event-slider">
       <h3>Please Specify Budget for all Events:</h3>
       <p class="dolla">$</p><p class="monies-val"></p><input class="monies">
       <button class="btn btn-primary">Apply</button>
- 
+
       <hr>
- 
+
       <!--lot of events  -->
       <div id="DIV_1">
         <div id="DIV_2">
                 <!-- ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_3">
                         <div id="DIV_4">
                                 <div id="DIV_5">
@@ -150,7 +150,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_20">
                         <div id="DIV_21">
                                 <div id="DIV_22">
@@ -186,7 +186,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_37">
                         <div id="DIV_38">
                                 <div id="DIV_39">
@@ -222,7 +222,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_54">
                         <div id="DIV_55">
                                 <div id="DIV_56">
@@ -258,7 +258,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_71">
                         <div id="DIV_72">
                                 <div id="DIV_73">
@@ -294,7 +294,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_88">
                         <div id="DIV_89">
                                 <div id="DIV_90">
@@ -330,7 +330,7 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
- 
+
                 <div id="DIV_122">
                         <div id="DIV_123">
                                 <div id="DIV_124">
@@ -368,9 +368,9 @@
                 <!-- end ngRepeat: event in eventsListData.events -->
   </div>
 </div>
- 
+
     </div>
- 
+
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
@@ -389,10 +389,10 @@
         </div>
     </div>
     <!-- /#page-content-wrapper -->
- 
+
 </div>
 <!-- /#wrapper -->
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script>
     $(function() {
       $(".button_1").click(function(){
@@ -403,15 +403,15 @@
         $("#container2").removeClass('hidden');
         $("#container").addClass('hidden');
       });
- 
-      $('.search-img').click(function() {
+
+      $(".search-img").click(function() {
         if($('.event-slider').css("margin-left") == "100px") {
             $('.event-slider').animate({"margin-left": '-=1100'});
         } else {
             $('.event-slider').animate({"margin-left": '+=1100'});
         }
       });
- 
+
       /*for budget input */
       $('.btn-primary').click(function(){
         if($(this).text()== "Edit") {
@@ -420,7 +420,7 @@
           $(this).text('Apply');
           return;
         }
- 
+
         if($(this).text()=="Apply") {
         var budget = $('.monies').val();
         $('.monies-val').show();

@@ -27,7 +27,7 @@
     outline: rgb(51, 51, 51) none 0px;
 }/*#DIV_2*/
 
-#DIV_3, #DIV_20, #DIV_37, #DIV_54, #DIV_71, #DIV_105, #DIV_122, #DIV_139, #DIV_156, #DIV_173, #DIV_190, #DIV_207, #DIV_224, #DIV_241, #DIV_258, #DIV_275, #DIV_292, #DIV_309, #DIV_326, #DIV_343, #DIV_360 {
+#DIV_3, #DIV_20, #DIV_37, #DIV_54, #DIV_71, #DIV_88, #DIV_105, #DIV_122, #DIV_139, #DIV_156, #DIV_173, #DIV_190, #DIV_207, #DIV_224, #DIV_241, #DIV_258, #DIV_275, #DIV_292, #DIV_309, #DIV_326, #DIV_343, #DIV_360 {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     cursor: pointer;
@@ -380,7 +380,7 @@
     outline: rgb(51, 51, 51) none 0px;
 }/*#path_53, #path_87, #path_121, #path_189, #path_257, #path_325*/
 
-#DIV_88 {
+#DIV_3:hover, #DIV_20:hover, #DIV_37:hover, #DIV_54:hover, #DIV_71:hover, #DIV_88:hover, #DIV_105:hover, #DIV_122:hover, #DIV_139:hover, #DIV_156:hover, #DIV_173:hover, #DIV_190:hover, #DIV_207:hover, #DIV_224:hover, #DIV_241:hover, #DIV_258:hover, #DIV_275:hover, #DIV_292:hover, #DIV_309:hover, #DIV_326:hover, #DIV_343:hover, #DIV_360:hover {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     cursor: pointer;
