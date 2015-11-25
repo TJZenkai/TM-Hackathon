@@ -1,108 +1,475 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bootstrap 3, from LayoutIt!</title>
-
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/sidebar.css" rel="stylesheet">
-
+    <title>TMOne Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/event-list.css" rel="stylesheet">
   </head>
   <body>
-
+    <div id="wrapper">
+ 
+    <!-- Sidebar -->
     <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-1">
-	        <!-- Sidebar -->
-	        <div id="sidebar-wrapper">
-	            <ul class="sidebar-nav">
-	                <li class="sidebar-brand">
-						<img src="images/tm_one_icon.svg" />
-	                </li>
-	                <li>
-	                    <img src="images/dashboard.svg" />
-	                </li>
-	                <li>
-	                    <img src="images/search.svg" />
-	                </li>
-	                <li>
-	                    <img src="images/scheduled-reports.svg" />
-	                </li>
-	                <li>
-	                    <img src="images/budget.svg" />
-	                </li>
-	            </ul>
-	        </div>
-	        <!-- /#sidebar-wrapper -->
-		</div>
-		<div class="col-md-11">
-			<div class="detail-header">
-				<div class="eventDate">
-					<div class="day">25</div>
-					<div class="monthYear">NOV 2015</div>
-				</div>
-				<div class="eventNameGroup">
-					<div class="eventName">Event Name</div>
-					<div class="eventTime">WEDNESDAY, 7:30 pm, Venue Name, Columbus, OH</div>
-				</div>
-			</div>
-
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="navbar-header">
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#"><img src="images/CampaignPerformance.png"></a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/TransactionDatePicker.png"></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<span class="label label-host">HOST Data as of Wednesday 11/25/2015, 08:00:00 pm UTC</span>
-							<span class="label label-default">LIVE</span>
-						</li>
-					</ul>
-				</div>
-				
-			</nav>
-		</div>
-	</div>
+      <div class="row">
+        <div class="col-md-1">
+          <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="/">
+                    <img class="nav-img" src="assets/tm_one_icon.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <img class="nav-img dash-img" src="assets/dashboard.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <img class="nav-img search-img" src="assets/search.svg">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <img class="nav-img bud-img" src="assets/budget.svg">
+                </a>
+            </li>
+        </ul>
+    </div>
+  </div>
+    <!-- /#sidebar-wrapper -->
+ 
+    <!--navbar-wrapper-->
+    <div class="col-md-11">
+      <div class="detail-header">
+        <div class="eventDate">
+          <div class="day">25</div>
+          <div class="monthYear">NOV 2015</div>
+        </div>
+        <div class="eventNameGroup">
+          <div class="eventName">Hairball</div>
+          <div class="eventTime">WEDNESDAY, 12:32 pm, Newport Music Hall, Columbus, OH</div>
+        </div>
+      </div>
+ 
+    <nav class="navbar navbar-default" role="navigation">
+                                <div class="navbar-header">
+                                </div>
+ 
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                                <li class="active">
+                                                        <a href="#"><img src="assets/CampaignPerformance.png"></a>
+                                                </li>
+                                                <li class="dropdown">
+                                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="assets/TransactionDatePicker.png"></a>
+                                                        <ul class="dropdown-menu">
+                                                                <li>
+                                                                        <a href="#">Action</a>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Another action</a>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Something else here</a>
+                                                                </li>
+                                                                <li class="divider">
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Separated link</a>
+                                                                </li>
+                                                                <li class="divider">
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">One more separated link</a>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                                        </ul>
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li>
+                                                        <span class="label label-host">HOST Data as of Wednesday 11/25/2015, 8:32:00 pm UTC</span>
+                                                        <span class="label label-default">LIVE</span>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </nav>
+    </div>
+  </div>
 </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+      <!--end navbar-->
+ 
+    <div class="event-slider">
+      <h3>Please Specify Budget for all Events:</h3>
+      <p class="dolla">$</p><p class="monies-val"></p><input class="monies">
+      <button class="btn btn-primary">Apply</button>
+ 
+      <hr>
+ 
+      <!--lot of events  -->
+      <div id="DIV_1">
+        <div id="DIV_2">
+                <!-- ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_3">
+                        <div id="DIV_4">
+                                <div id="DIV_5">
+                                        4
+                                </div>
+                                <div id="DIV_6">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_7">
+                                <div id="DIV_8">
+                                        Saintseneca
+                                </div>
+                                <div id="DIV_9">
+                                        <span id="SPAN_10">Friday</span>, 7:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_11">
+                                <div id="DIV_12">
+                                        <i id="I_13"></i>Resale
+                                </div>
+                                <div id="DIV_14">
+                                        <i id="I_15"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_16">
+                        </div>
+                        <div id="DIV_17">
+                                <svg id="svg_18">
+                                        <path id="path_19">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_20">
+                        <div id="DIV_21">
+                                <div id="DIV_22">
+                                        5
+                                </div>
+                                <div id="DIV_23">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_24">
+                                <div id="DIV_25">
+                                        Sleater-Kinney
+                                </div>
+                                <div id="DIV_26">
+                                        <span id="SPAN_27">Saturday</span>, 7:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_28">
+                                <div id="DIV_29">
+                                        <i id="I_30"></i>Resale
+                                </div>
+                                <div id="DIV_31">
+                                        <i id="I_32"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_33">
+                        </div>
+                        <div id="DIV_34">
+                                <svg id="svg_35">
+                                        <path id="path_36">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_37">
+                        <div id="DIV_38">
+                                <div id="DIV_39">
+                                        9
+                                </div>
+                                <div id="DIV_40">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_41">
+                                <div id="DIV_42">
+                                        The Revivalists
+                                </div>
+                                <div id="DIV_43">
+                                        <span id="SPAN_44">Wednesday</span>, 7:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_45">
+                                <div id="DIV_46">
+                                        <i id="I_47"></i>Resale
+                                </div>
+                                <div id="DIV_48">
+                                        <i id="I_49"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_50">
+                        </div>
+                        <div id="DIV_51">
+                                <svg id="svg_52">
+                                        <path id="path_53">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_54">
+                        <div id="DIV_55">
+                                <div id="DIV_56">
+                                        10
+                                </div>
+                                <div id="DIV_57">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_58">
+                                <div id="DIV_59">
+                                        Festivus De Dru
+                                </div>
+                                <div id="DIV_60">
+                                        <span id="SPAN_61">Thursday</span>, 5:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_62">
+                                <div id="DIV_63">
+                                        <i id="I_64"></i>Resale
+                                </div>
+                                <div id="DIV_65">
+                                        <i id="I_66"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_67">
+                        </div>
+                        <div id="DIV_68">
+                                <svg id="svg_69">
+                                        <path id="path_70">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_71">
+                        <div id="DIV_72">
+                                <div id="DIV_73">
+                                        11
+                                </div>
+                                <div id="DIV_74">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_75">
+                                <div id="DIV_76">
+                                        Sassafraz Presents Frazzle Town 4
+                                </div>
+                                <div id="DIV_77">
+                                        <span id="SPAN_78">Friday</span>, 7:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_79">
+                                <div id="DIV_80">
+                                        <i id="I_81"></i>Resale
+                                </div>
+                                <div id="DIV_82">
+                                        <i id="I_83"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_84">
+                        </div>
+                        <div id="DIV_85">
+                                <svg id="svg_86">
+                                        <path id="path_87">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_88">
+                        <div id="DIV_89">
+                                <div id="DIV_90">
+                                        12
+                                </div>
+                                <div id="DIV_91">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_92">
+                                <div id="DIV_93">
+                                        Hairball
+                                </div>
+                                <div id="DIV_94">
+                                        <span id="SPAN_95">Saturday</span>, 7:00 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_96">
+                                <div id="DIV_97">
+                                        <i id="I_98"></i>Resale
+                                </div>
+                                <div id="DIV_99">
+                                        <i id="I_100"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_101">
+                        </div>
+                        <div id="DIV_102">
+                                <svg id="svg_103">
+                                        <path id="path_104">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_105">
+                        <div id="DIV_106">
+                                <div id="DIV_107">
+                                        13
+                                </div>
+                                <div id="DIV_108">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_109">
+                                <div id="DIV_110">
+                                        Juggalo Championship Wrestling
+                                </div>
+                                <div id="DIV_111">
+                                        <span id="SPAN_112">Sunday</span>, 6:30 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_113">
+                                <div id="DIV_114">
+                                        <i id="I_115"></i>Resale
+                                </div>
+                                <div id="DIV_116">
+                                        <i id="I_117"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_118">
+                        </div>
+                        <div id="DIV_119">
+                                <svg id="svg_120">
+                                        <path id="path_121">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+ 
+                <div id="DIV_122">
+                        <div id="DIV_123">
+                                <div id="DIV_124">
+                                        18
+                                </div>
+                                <div id="DIV_125">
+                                        Dec 2015
+                                </div>
+                        </div>
+                        <div id="DIV_126">
+                                <div id="DIV_127">
+                                        Beartooth
+                                </div>
+                                <div id="DIV_128">
+                                        <span id="SPAN_129">Friday</span>, 6:30 pm, Newport Music Hall, Columbus, OH
+                                </div>
+                        </div>
+                        <div id="DIV_130">
+                                <div id="DIV_131">
+                                        <i id="I_132"></i>Resale
+                                </div>
+                                <div id="DIV_133">
+                                        <i id="I_134"></i>VIP
+                                </div>
+                        </div>
+                        <div id="DIV_135">
+                        </div>
+                        <div id="DIV_136">
+                                <svg id="svg_137">
+                                        <path id="path_138">
+                                        </path>
+                                </svg>
+                        </div>
+                </div>
+                <!-- end ngRepeat: event in eventsListData.events -->
+  </div>
+</div>
+ 
+    </div>
+ 
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="but-group">
+                  <div class="button_1"><p>Total Spent</p></div>
+                  <div class="button_2"><p>Tickets Sold</p></div>
+                  <div class="button_3"><p>Tickets Left</p></div>
+                  <div class="button_4"><p>Conversions</p></div>
+                 </div>
+                  <div id="container" class="" style="width: 810px; height: 400px; margin: 0 auto"></div>
+                  <div id="container2" class="hidden" style="width: 810px; height: 400px; margin: 0 auto"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+ 
+</div>
+<!-- /#wrapper -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script>
+    $(function() {
+      $(".button_1").click(function(){
+        $("#container").removeClass('hidden');
+        $("#container2").addClass('hidden');
+      });
+      $(".button_2").click(function(){
+        $("#container2").removeClass('hidden');
+        $("#container").addClass('hidden');
+      });
+ 
+      $('.search-img').click(function() {
+        if($('.event-slider').css("margin-left") == "100px") {
+            $('.event-slider').animate({"margin-left": '-=1100'});
+        } else {
+            $('.event-slider').animate({"margin-left": '+=1100'});
+        }
+      });
+ 
+      /*for budget input */
+      $('.btn-primary').click(function(){
+        if($(this).text()== "Edit") {
+          $('.monies').show();
+          $('.monies-val').hide();
+          $(this).text('Apply');
+          return;
+        }
+ 
+        if($(this).text()=="Apply") {
+        var budget = $('.monies').val();
+        $('.monies-val').show();
+        $('.monies-val').text(budget);
+        $('.monies').hide();
+        $('.dolla').css('margin-right','2px');
+        $(this).text('Edit');
+      }
+      });
+    });
+    </script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
