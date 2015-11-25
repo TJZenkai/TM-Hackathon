@@ -52,12 +52,12 @@
     <div class="col-md-11">
       <div class="detail-header">
         <div class="eventDate">
-          <div class="day">12</div>
+          <div class="day">4</div>
           <div class="monthYear">DEC 2015</div>
         </div>
         <div class="eventNameGroup">
-          <div class="eventName">Hairball</div>
-          <div class="eventTime">SATURDAY, 7:00 pm, Newport Music Hall, Columbus, OH</div>
+          <div class="eventName">Saintseneca</div>
+          <div class="eventTime">FRIDAY, 7:00 pm, Newport Music Hall, Columbus, OH</div>
         </div>
       </div>
 
@@ -103,8 +103,11 @@
                                         </ul>
                                 </div>
                         </nav>
+
+      <!--list of events  -->
+    <div class="iFrameDashboard">
+        <img src="assets/dashboard.png">
     </div>
-  </div>
 </div>
       <!--end navbar-->
 
@@ -375,33 +378,14 @@
                         </div>
                 </div>
                 <!-- end ngRepeat: event in eventsListData.events -->
-  </div>
-</div>
-
-    </div>
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                  <div class="but-group">
-                  <div class="button_1"><p>Total Spent</p></div>
-                  <div class="button_2"><p>Tickets Sold</p></div>
-                  <div class="button_3"><p>Tickets Left</p></div>
-                  <div class="button_4"><p>Conversions</p></div>
-                 </div>
-                  <div id="container" class="" style="width: 810px; height: 400px; margin: 0 auto"></div>
-                  <div id="container2" class="hidden" style="width: 810px; height: 400px; margin: 0 auto"></div>
-                </div>
-            </div>
         </div>
     </div>
-    <!-- /#page-content-wrapper -->
+</div>
 
 </div>
+</div>
 <!-- /#wrapper -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script>
     $(function() {
       $(".button_1").click(function(){
@@ -413,7 +397,7 @@
         $("#container").addClass('hidden');
       });
 
-      $(".search-img").click(function() {
+      $('.search-img').click(function() {
         if($('.event-slider').css("margin-left") == "100px") {
             $('.event-slider').animate({"margin-left": '-=1100'});
         } else {

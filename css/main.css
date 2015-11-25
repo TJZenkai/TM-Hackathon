@@ -277,3 +277,11 @@
     width: 34px;
     margin-right:32px;
   }
+
+  .iFrameDashboard {
+    overflow: hidden;
+    height: 600px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
